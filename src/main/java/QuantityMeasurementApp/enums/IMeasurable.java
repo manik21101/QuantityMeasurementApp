@@ -4,8 +4,8 @@ public interface IMeasurable {
 	
 	 double getConversionFactor();
 
-    double convertToBaseUnit(double value);
+	    double convertToBaseUnit(double value);
 
-    double convertFromBaseUnit(double value);
+	    double convertFromBaseUnit(double value);
 
 }
