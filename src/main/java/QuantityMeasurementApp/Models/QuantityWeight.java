@@ -4,7 +4,7 @@ import QuantityMeasurementApp.enums.WeightUnit;
 
 public class QuantityWeight {
 
-	  private final Quantity<WeightUnit> quantity;
+	 private final Quantity<WeightUnit> quantity;
 
 	    public QuantityWeight(double value, WeightUnit unit) {
 	        this.quantity = new Quantity<>(value, unit);
