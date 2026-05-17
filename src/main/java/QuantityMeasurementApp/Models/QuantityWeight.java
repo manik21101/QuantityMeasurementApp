@@ -38,4 +38,5 @@ public class QuantityWeight {
      }
      return this.quantity.equals(((QuantityWeight) o).quantity);
  }
+
 	}
