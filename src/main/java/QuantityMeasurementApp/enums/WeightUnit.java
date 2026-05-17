@@ -1,8 +1,8 @@
 package QuantityMeasurementApp.enums;
 
 public enum WeightUnit implements IMeasurable {
-	
-	KILOGRAM(1.0),
+
+    KILOGRAM(1.0),
     GRAM(0.001),
     POUND(1.0 / 2.20462);//
     private final double toKilogramFactor;
