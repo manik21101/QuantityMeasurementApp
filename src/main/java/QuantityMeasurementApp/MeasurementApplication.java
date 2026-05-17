@@ -14,18 +14,14 @@ public class MeasurementApplication {
 		SpringApplication.run(MeasurementApplication.class, args);
 		
 		
-		QuantityLength q1 = new QuantityLength(1.0, LengthUnit.FEET);
-		QuantityLength q2 = new QuantityLength(12.0, LengthUnit.INCH);
+		double value1 = 1.0;
+		LengthUnit unit1 = LengthUnit.FEET;
 
-		QuantityLength q3 = new QuantityLength(1.0, LengthUnit.YARDS);
-		QuantityLength q4 = new QuantityLength(3.0, LengthUnit.FEET);
+		double value3 = 12.0;
+		LengthUnit unit2 = LengthUnit.INCH;
 
-		QuantityLength q5 = new QuantityLength(1.0, LengthUnit.CENTIMETERS);
-		QuantityLength q6 = new QuantityLength(0.393701, LengthUnit.INCH);
-
-		System.out.println(q1.equals(q2) ? "Equal (true)" : "Not Equal (false)");
-		System.out.println(q3.equals(q4) ? "Equal (true)" : "Not Equal (false)");
-		System.out.println(q5.equals(q6) ? "Equal (true)" : "Not Equal (false)");
+		QuantityLength quantityLength = new QuantityLength(value1,unit1);
+		QuantityLength quantityLength1 = new QuantityLength(value3, unit2);
 		
 	}
 
